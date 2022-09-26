@@ -9,13 +9,17 @@ body {
 
 .blue-section {
     background-color:#1F2937;
-    padding: 5px 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 .header {
     display: flex; 
-    justify-content: space-between;
+    justify-content:space-between;
+    width: 1000px;
+    padding-top: 10px;
 }
 
 
@@ -31,7 +35,7 @@ ul {
     padding: 0;
     display: flex;
     gap: 18px;
-    align-items: flex-end;
+    align-items: center;
 }
 
 a {
@@ -45,12 +49,13 @@ a {
     display: flex;
     margin: 100px 0;
     justify-content: space-between;
+    width: 1000px;
 }
 
 .left-info {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 .left-info h1 {
@@ -95,6 +100,7 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .content {
@@ -106,7 +112,8 @@ h2 {
     background-color:#e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 100px 500px;
+    align-items: center;
+    padding: 50px 0;
 }
 
 .quote {
@@ -115,17 +122,20 @@ h2 {
     font-weight: lighter;
     font-style: italic;
     margin-bottom: 0;
-    display: flex;
+    max-width: 900px;
+    
 }
 
 .quote-name {
     font-size: 20px;
     font-weight: bolder;
-    align-self: flex-end;
+    
 }
 
 .signup-section {
-    padding: 100px 350px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
 }
 
 .signup-prompt {
@@ -133,6 +143,7 @@ h2 {
     padding: 50px 120px;
     color: white;
     border-radius: 10px;
+    width: 800px;
 }
 
 .call {
@@ -158,8 +169,12 @@ h2 {
 
 .footer {
     background-color:#1F2937;
-    padding: 50px 350px;
     color:white;
     display: flex;
     justify-content: center;
+    padding: 30px 0;
+}
+
+.copy {
+    max-width: fit-content;
 }
