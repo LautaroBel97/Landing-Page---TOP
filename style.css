@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
-
 
 .blue-section {
     background-color:#1F2937;
@@ -113,10 +115,51 @@ h2 {
     font-weight: lighter;
     font-style: italic;
     margin-bottom: 0;
+    display: flex;
 }
 
 .quote-name {
     font-size: 20px;
     font-weight: bolder;
     align-self: flex-end;
+}
+
+.signup-section {
+    padding: 100px 350px;
+}
+
+.signup-prompt {
+    background-color: #3882f6;
+    padding: 50px 120px;
+    color: white;
+    border-radius: 10px;
+}
+
+.call {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.white-borders {
+    padding: 7px 25px;
+    background-color:#3882f6;        
+    color: white;
+    border: px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-color:white;
+    }
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.footer {
+    background-color:#1F2937;
+    padding: 50px 350px;
+    color:white;
+    display: flex;
+    justify-content: center;
 }
